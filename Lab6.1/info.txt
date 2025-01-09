@@ -1,0 +1,5 @@
+2 Petrov Oleg Vasilievich 1986 man 5 5 4 2000
+3 Petrov Mamix Ahmedov 2006 man 3 3 3 0
+1 Varezkov Alex Aleksandrovich 2004 man 4 4 5 1500
+5 Bananov Anton Olegovich 1980 man 5 4 0 2100
+6 Bochkanov Maxim Urievich 2006 man 5 4 5 2150
