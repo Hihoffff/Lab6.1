@@ -1,7 +1,7 @@
-//#include "lib.h"
 
 
 
+//123
 void transfer(FILE* file, FILE* fperm) {
 	muchenik Student;
 	while (!feof(file)) {
