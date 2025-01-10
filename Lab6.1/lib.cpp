@@ -1,8 +1,6 @@
 
 
-
-//123
-void transfer(FILE* file, FILE* fperm) {
+void transfer(FILE* file, FILE* fperm) { //что-то не так с формированием файла , скачазала что-то с массивом
 	muchenik Student;
 	while (!feof(file)) {
 		fscanf(file, "%d %s %s %s %d %s %d %d %d %lf", &Student.group, &Student.secondName, &Student.name, &Student.thirdName, &Student.year, &Student.gender, &Student.physics, &Student.math, &Student.IT, &Student.scholarship);
@@ -14,7 +12,7 @@ void transfer(FILE* file, FILE* fperm) {
 bool output1(FILE* fperm, FILE* rperm) {
 	muchenik Student;
 	bool isHas = false;
-	while (fread(&Student, sizeof(Student), 1, fperm) != 0) {
+	while (fread(&Student, sizeof(Student), 1, fperm) != 0 && !isHas) {
 		if ((Student.physics + Student.math + Student.IT) / 3.0 > 4.5) {
 			fwrite(&Student, sizeof(Student), 1, rperm);
 			isHas = true;

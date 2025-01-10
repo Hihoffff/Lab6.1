@@ -1,6 +1,6 @@
 ﻿#include "lib.h"
 #include "lib.cpp"
-//1233
+
 int main() {
 	setlocale(LC_ALL, "RUS");
 	FILE* file = fopen("info.txt", "rt");
