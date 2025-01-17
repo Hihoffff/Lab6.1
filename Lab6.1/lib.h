@@ -4,8 +4,11 @@
 
 using namespace std;
 void transfer(FILE* file, FILE* fperm);
-bool output1(FILE* fperm, FILE* rperm);
+void output1(FILE* fperm, FILE* rperm);
 void output2(FILE* rperm, FILE* res);
+void zashita(FILE* rperm, FILE* res,int num);
+void findAged(FILE* rperm, int& cur, int& age, int& num);
+void startData(FILE* rperm, int& cur, int& age, int& num);
 
 struct muchenik {
 	int group;
